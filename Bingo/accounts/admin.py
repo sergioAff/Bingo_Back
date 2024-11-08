@@ -5,7 +5,6 @@ from .forms import CustomUserChangeForm, CustomUserCreationForm
 from .models import User
 
 # Register your models here.
-
 class UserAdmin(BaseUserAdmin):
     ordering = ["email"]
     add_form = CustomUserCreationForm
