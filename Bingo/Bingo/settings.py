@@ -17,7 +17,7 @@ SECRET_KEY = env("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env("DEBUG")
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["bingo-back.onrender.com"]
 
 CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:5173",
