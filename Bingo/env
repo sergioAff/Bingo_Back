@@ -5,7 +5,6 @@ DEBUG=True
 
 SIGNING_KEY=8fvba1BGm0uSRpMp0sGqoKtYtYAdhWlgPm
 
-# Looking to send emails in production? Check out our Email API/SMTP product!
 EMAIL_HOST=sandbox.smtp.mailtrap.io
 EMAIL_HOST_USER=0616d81485e431
 EMAIL_HOST_PASSWORD=1d838c11fe2fb5
